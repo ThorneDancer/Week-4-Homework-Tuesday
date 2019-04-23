@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="38px" viewBox="0 0 43 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Affordable-Symbol</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-158.000000, -761.000000)">
+            <g id="Symbols" transform="translate(0.000000, 583.000000)">
+                <g id="Affordable" transform="translate(49.500000, 179.000000)">
+                    <g id="Affordable-Symbol" transform="translate(109.500000, 0.000000)">
+                        <path d="M3.7191365,21.8829413 L0,21.8829413 L0,14.7754435 L2.55430627,14.7754435 C2.55430627,14.7754435 4.10186643,7.5066046 11.2239712,4.34771669 C11.2239712,4.34771669 10.6831572,2.60693169 7.97076681,0 L12.3055993,0 C12.3055993,0 15.4007196,1.02748773 15.8666517,3.0824632 L23.5295705,3.0824632 C23.5295705,3.0824632 34.0546436,4.73833187 37,13.8243804 L37,18.639137 C37,18.639137 36.3011019,25.1182539 27.7146391,28.667757 C27.7146391,28.667757 20.1266022,31.6653038 12.0809535,28.667757 C12.0809535,28.6762486 7.82100292,27.0968046 3.7191365,21.8829413 Z" id="Path" stroke="#CBF368" stroke-width="2"></path>
+                        <circle id="Oval" fill="#CBF368" fill-rule="nonzero" cx="10.5" cy="14.5" r="1.5"></circle>
+                        <path d="M19,6 C19,6 27.3488569,6.08237986 29,10" id="Path" stroke="#CBF368" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M37,16 C37,16 41,16.0425349 41,12" id="Path" stroke="#CBF368" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M28.5,28 L28.5,36" id="Path" stroke="#CBF368" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M13.5,29 L13.5,36" id="Path" stroke="#CBF368" stroke-width="2" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

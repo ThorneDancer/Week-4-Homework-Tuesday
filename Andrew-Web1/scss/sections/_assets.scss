@@ -1,0 +1,44 @@
+/* ================================
+        Assets
+================================ */
+#assets {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: white;
+  grid-template-areas:
+  ". title ."
+  ". affordable ."
+  ". launch ."
+  ". google ."
+  ". inspiration ."
+  ". branding ."
+  ". custom .";
+
+  > h1 {
+    grid-area: title;
+  }
+
+  > #affordable {
+    grid-area: affordable;
+  }
+
+  > #launch {
+    grid-area: launch;
+  }
+
+  > #google {
+    grid-area: google;
+  }
+
+  > #inspiration {
+    grid-area: inspiration;
+  }
+
+  > #branding {
+    grid-area: branding;
+  }
+
+  > #custom {
+    grid-area: custom;
+  }
+}
