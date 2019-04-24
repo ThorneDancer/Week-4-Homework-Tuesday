@@ -11,6 +11,19 @@ html {
 /* ================================
         Base css
 ================================ */
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style: none; }
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". content ."; }
+  .content-grid .content-grid-item {
+    grid-area: content; }
+
 /* ================================
         Normalize css
 ================================ */
@@ -334,21 +347,13 @@ template {
 /* ================================
         Header css
 ================================ */
-header {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: white;
-  grid-template-areas: ". header ."; }
-  header > div {
-    grid-area: header; }
-
 /* ================================
         Footer css
 ================================ */
 footer {
   display: grid;
   grid-template-columns: 10px auto auto auto 10px;
-  background-color: white;
+  background-color: #fff;
   grid-template-areas: ". cruquius netherlands email ." " . tag tag tag ."; }
   footer > #cruquius {
     grid-area: cruquius; }
@@ -362,72 +367,12 @@ footer {
 /* ================================
         Heroes
 ================================ */
-#hero-1 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: white;
-  grid-template-areas: ". title ." ". image ." ". nav ."; }
-  #hero-1 > h1 {
-    grid-area: title; }
-  #hero-1 > img {
-    grid-area: image; }
-  #hero-1 > div {
-    grid-area: nav; }
-
-#hero-2 {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: white;
-  grid-template-areas: ". title ." ". sub ." ". image ." ". text ."; }
-  #hero-2 > h1 {
-    grid-area: title; }
-  #hero-2 > p {
-    grid-area: sub; }
-  #hero-2 > img {
-    grid-area: image; }
-  #hero-2 > div {
-    grid-area: text; }
-
 /* ================================
         Assets
 ================================ */
-#assets {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: white;
-  grid-template-areas: ". title ." ". affordable ." ". launch ." ". google ." ". inspiration ." ". branding ." ". custom ."; }
-  #assets > h1 {
-    grid-area: title; }
-  #assets > #affordable {
-    grid-area: affordable; }
-  #assets > #launch {
-    grid-area: launch; }
-  #assets > #google {
-    grid-area: google; }
-  #assets > #inspiration {
-    grid-area: inspiration; }
-  #assets > #branding {
-    grid-area: branding; }
-  #assets > #custom {
-    grid-area: custom; }
-
 /* ================================
         About Us
 ================================ */
-#about {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: white;
-  grid-template-areas: ". title ." ". ellen ." ". fred ."; }
-  #about #view {
-    grid-area: title; }
-  #about #ellen {
-    background-color: gray;
-    grid-area: ellen; }
-  #about #fred {
-    background-color: gray;
-    grid-area: fred; }
-
 /* ================================
         Pricing
 ================================ */
@@ -448,13 +393,3 @@ footer {
 /* ================================
         Order Now
 ================================ */
-#order {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: blue;
-  grid-template-areas: ". header ." ". nav ."; }
-  #order > div {
-    grid-area: header; }
-  #order > a {
-    background-color: white;
-    grid-area: nav; }

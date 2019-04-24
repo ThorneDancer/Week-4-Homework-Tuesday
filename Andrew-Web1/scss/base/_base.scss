@@ -1,3 +1,21 @@
 /* ================================
         Base css
 ================================ */
+ul{
+  margin: 0;
+  padding: 0;
+
+  li{
+    list-style: none;
+  }
+}
+
+.content-grid{
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". content .";
+
+  .content-grid-item{
+    grid-area: content;
+  }
+}

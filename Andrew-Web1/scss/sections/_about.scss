@@ -2,25 +2,4 @@
         About Us
 ================================ */
 #about {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: white;
-  grid-template-areas:
-  ". title ."
-  ". ellen ."
-  ". fred .";
-
-  #view {
-    grid-area: title;
-  }
-
-  #ellen {
-    background-color: gray;
-    grid-area: ellen;
-  }
-
-  #fred {
-    background-color: gray;
-    grid-area: fred;
-  }
 }
