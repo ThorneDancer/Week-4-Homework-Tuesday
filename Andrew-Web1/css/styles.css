@@ -335,7 +335,11 @@ template {
 /* ================================
         Typography css
 ================================ */
-h1, h2, h3, h4, h4 {
+h1,
+h2,
+h3,
+h4,
+h4 {
   margin: 0;
   padding: 0; }
 
@@ -395,12 +399,12 @@ footer {
   text-align: center; }
   #hero-1 #blue-order {
     background-color: #02ABF8;
-    border: 0px;
+    border: 0;
     padding: 10px 5px;
     color: #fff; }
   #hero-1 #read-more {
     color: #fff;
-    border: 0px; }
+    border: 0; }
 
 #hero1-image {
   background-image: url("../img/hero/hero-1.jpg");
@@ -439,7 +443,7 @@ footer {
 ================================ */
 #assets {
   text-align: center;
-  padding: 70px 0px; }
+  padding: 70px 0; }
   #assets p {
     color: #9C9C9F; }
 
@@ -457,12 +461,12 @@ footer {
 #ellen {
   background-color: #F5F5F5;
   margin: 40px -10px 20px;
-  padding: 20px 20px; }
+  padding: 20px; }
 
 #fred {
   background-color: #F5F5F5;
   margin: 20px -10px 40px;
-  padding: 20px 20px; }
+  padding: 20px; }
   #fred a {
     color: #9C9C9F; }
 
@@ -478,7 +482,7 @@ footer {
   #price > #cost {
     grid-area: title;
     text-align: center;
-    padding: 60px 0px 20px;
+    padding: 60px 0 20px;
     color: #9C9C9F; }
     #price > #cost h1 {
       color: #000; }
@@ -489,7 +493,7 @@ footer {
     color: #fff;
     grid-area: value;
     text-align: center;
-    padding: 20px 0px; }
+    padding: 20px 0; }
   #price > ul {
     background-color: #fff;
     grid-area: benefits;
@@ -502,7 +506,7 @@ footer {
 #order {
   background-color: #02ABF8;
   color: #fff;
-  padding: 20px 0px 40px; }
+  padding: 20px 0 40px; }
 
 a {
   color: #fff;
