@@ -411,8 +411,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   height: 312px;
-  width: 629px;
-  margin-left: -122px;
+  width: 100%;
+  background-position: center;
   margin-top: -200px; }
 
 #hero-2 {
@@ -427,6 +427,7 @@ footer {
   background-image: url("../img/hero/hero-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 261px;
   width: 298px;
   margin-top: -570px;
@@ -468,7 +469,8 @@ footer {
   margin: 20px -10px 40px;
   padding: 20px; }
   #fred a {
-    color: #9C9C9F; }
+    color: #9C9C9F;
+    border: 0px; }
 
 /* ================================
         Pricing
