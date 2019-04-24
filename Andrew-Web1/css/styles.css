@@ -335,6 +335,14 @@ template {
 /* ================================
         Typography css
 ================================ */
+h1, h2, h3, h4, h4 {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
 /* ================================
         Buttons css
 ================================ */
@@ -347,6 +355,13 @@ template {
 /* ================================
         Header css
 ================================ */
+header {
+  background-color: #fff;
+  padding-bottom: 120px; }
+
+#burger {
+  padding-left: 150px; }
+
 /* ================================
         Footer css
 ================================ */
@@ -367,6 +382,25 @@ footer {
 /* ================================
         Heroes
 ================================ */
+#hero-1 {
+  color: #fff;
+  text-align: center; }
+  #hero-1 #blue-order {
+    background-color: #02ABF8;
+    padding: 10px 5px;
+    color: #fff; }
+  #hero-1 #read-more {
+    color: #fff; }
+
+#hero1-image {
+  background-image: url("../img/hero/hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 312px;
+  width: 629px;
+  margin-left: -122px;
+  margin-top: -200px; }
+
 /* ================================
         Assets
 ================================ */
@@ -379,16 +413,19 @@ footer {
 #price {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  background-color: gray;
-  grid-template-areas: ". title ." ". value ." ". benefits ."; }
+  background-color: #F5F5F5;
+  grid-template-areas: ". title ." ". value ." ". benefits .";
+  padding-bottom: 50px; }
   #price > #cost {
     grid-area: title; }
   #price > #total {
-    background-color: blue;
-    grid-area: value; }
+    background-color: #02ABF8;
+    grid-area: value;
+    text-align: center; }
   #price > ul {
-    background-color: white;
-    grid-area: benefits; }
+    background-color: #fff;
+    grid-area: benefits;
+    padding-bottom: 70px; }
 
 /* ================================
         Order Now

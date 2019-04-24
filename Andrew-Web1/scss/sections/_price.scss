@@ -4,23 +4,26 @@
 #price {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  background-color: gray;
+  background-color: $lightGray;
   grid-template-areas:
   ". title ."
   ". value ."
   ". benefits .";
+  padding-bottom: 50px;
 
   > #cost {
     grid-area: title;
   }
 
   > #total {
-    background-color: blue;
+    background-color: $lightBlue;
     grid-area: value;
+    text-align: center;
   }
 
   > ul {
-    background-color: white;
+    background-color: $white;
     grid-area: benefits;
+    padding-bottom: 70px;
   }
 }

@@ -2,6 +2,28 @@
         Heroes
 ================================ */
 #hero-1 {
+  color: $white;
+  text-align: center;
+
+  #blue-order{
+    background-color: $lightBlue;
+    padding: 10px 5px;
+    color: $white;
+  }
+
+  #read-more{
+    color: $white;
+  }
+}
+
+#hero1-image{
+  background-image: url('../img/hero/hero-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 312px;
+  width: 629px;
+  margin-left: -122px;
+  margin-top: -200px;
 }
 
 #hero-2 {
