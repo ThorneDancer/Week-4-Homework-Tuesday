@@ -369,15 +369,23 @@ footer {
   display: grid;
   grid-template-columns: 10px auto auto auto 10px;
   background-color: #fff;
+  color: #9C9C9F;
   grid-template-areas: ". cruquius netherlands email ." " . tag tag tag ."; }
   footer > #cruquius {
-    grid-area: cruquius; }
+    grid-area: cruquius;
+    text-align: left; }
   footer > #netherlands {
-    grid-area: netherlands; }
+    grid-area: netherlands;
+    text-align: center; }
   footer > #email {
-    grid-area: email; }
+    grid-area: email;
+    text-align: right;
+    color: #02ABF8; }
   footer > #tag {
-    grid-area: tag; }
+    grid-area: tag;
+    text-align: center; }
+  footer span {
+    color: #02ABF8; }
 
 /* ================================
         Heroes
@@ -387,10 +395,12 @@ footer {
   text-align: center; }
   #hero-1 #blue-order {
     background-color: #02ABF8;
+    border: 0px;
     padding: 10px 5px;
     color: #fff; }
   #hero-1 #read-more {
-    color: #fff; }
+    color: #fff;
+    border: 0px; }
 
 #hero1-image {
   background-image: url("../img/hero/hero-1.jpg");
@@ -405,6 +415,8 @@ footer {
   text-align: center;
   background-color: #F5F5F5;
   padding-bottom: 20px; }
+  #hero-2 p {
+    color: #9C9C9F; }
 
 #hero2-image {
   background-color: #F5F5F5;
@@ -428,10 +440,32 @@ footer {
 #assets {
   text-align: center;
   padding: 70px 0px; }
+  #assets p {
+    color: #9C9C9F; }
 
 /* ================================
         About Us
 ================================ */
+#about h1 {
+  text-align: center; }
+
+#about p {
+  color: #9C9C9F; }
+  #about p span {
+    color: #02ABF8; }
+
+#ellen {
+  background-color: #F5F5F5;
+  margin: 40px -10px 20px;
+  padding: 20px 20px; }
+
+#fred {
+  background-color: #F5F5F5;
+  margin: 20px -10px 40px;
+  padding: 20px 20px; }
+  #fred a {
+    color: #9C9C9F; }
+
 /* ================================
         Pricing
 ================================ */
@@ -442,16 +476,35 @@ footer {
   grid-template-areas: ". title ." ". value ." ". benefits .";
   padding-bottom: 50px; }
   #price > #cost {
-    grid-area: title; }
+    grid-area: title;
+    text-align: center;
+    padding: 60px 0px 20px;
+    color: #9C9C9F; }
+    #price > #cost h1 {
+      color: #000; }
+    #price > #cost span {
+      color: #02ABF8; }
   #price > #total {
     background-color: #02ABF8;
+    color: #fff;
     grid-area: value;
-    text-align: center; }
+    text-align: center;
+    padding: 20px 0px; }
   #price > ul {
     background-color: #fff;
     grid-area: benefits;
+    padding-top: 20px;
     padding-bottom: 70px; }
 
 /* ================================
         Order Now
 ================================ */
+#order {
+  background-color: #02ABF8;
+  color: #fff;
+  padding: 20px 0px 40px; }
+
+a {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 30px; }

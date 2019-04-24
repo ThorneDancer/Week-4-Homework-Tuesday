@@ -13,17 +13,31 @@
 
   > #cost {
     grid-area: title;
+    text-align: center;
+    padding: 60px 0px 20px;
+    color: $textGray;
+
+    h1{
+      color: $black;
+    }
+
+    span{
+      color: $lightBlue;
+    }
   }
 
   > #total {
     background-color: $lightBlue;
+    color: $white;
     grid-area: value;
     text-align: center;
+    padding: 20px 0px;
   }
 
   > ul {
     background-color: $white;
     grid-area: benefits;
+    padding-top: 20px;
     padding-bottom: 70px;
   }
 }
