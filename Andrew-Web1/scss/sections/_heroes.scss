@@ -26,5 +26,26 @@
   margin-top: -200px;
 }
 
-#hero-2 {
+#hero-2{
+  text-align: center;
+  background-color: $lightGray;
+  padding-bottom: 20px;
+}
+
+#hero2-image{
+  background-color: $lightGray;
+  background-image: url('../img/hero/hero-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 261px;
+  width: 298px;
+  margin-top: -570px;
+  margin-left: 35px;
+  margin-bottom: 380px;
+}
+
+#mobile-text{
+  text-align: left;
+  margin-top: 340px;
+  margin-bottom: 40px;
 }

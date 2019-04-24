@@ -401,9 +401,34 @@ footer {
   margin-left: -122px;
   margin-top: -200px; }
 
+#hero-2 {
+  text-align: center;
+  background-color: #F5F5F5;
+  padding-bottom: 20px; }
+
+#hero2-image {
+  background-color: #F5F5F5;
+  background-image: url("../img/hero/hero-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 261px;
+  width: 298px;
+  margin-top: -570px;
+  margin-left: 35px;
+  margin-bottom: 380px; }
+
+#mobile-text {
+  text-align: left;
+  margin-top: 340px;
+  margin-bottom: 40px; }
+
 /* ================================
         Assets
 ================================ */
+#assets {
+  text-align: center;
+  padding: 70px 0px; }
+
 /* ================================
         About Us
 ================================ */
